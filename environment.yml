@@ -1,0 +1,15 @@
+name: bayesian-hierarchical-clustering-examples
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - python>=3.8.3
+  - numpy>=1.18.5
+  - matplotlib>=3.2.2
+  - python-graphviz>=0.14
+  - scipy>=1.5.0
+  - pydot>=1.4.1
+  - git>=2.23.0
+  - pip>=20.3.3
+  - pip:
+     - "--editable=git+git://github.com/caponetto/bayesian-hierarchical-clustering.git@v0.0.3#egg=bhc"
